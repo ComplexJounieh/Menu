@@ -1,20 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
 body {
     user-select: none;
     font-family: 'Vazirmatn', sans-serif;
     color: white;
     padding: 10%;
-    background-color: #0375bc;
-    
+    background-color: #0375bc;  
 }
-
-/*header container*/
 header {
     display: flex;
     flex-direction: column;
@@ -23,14 +19,12 @@ header {
     width: 100%;
     padding-bottom: 10%;
 }
-
 header>img {
     border-radius: 10px;
     margin-bottom: 10%;
     width: 100%;
     height: auto;
 }
-
 header>h1 {
     text-align: center;
     font-size: 24px;
@@ -47,30 +41,16 @@ header>h1 {
     grid-gap: 1%;
     width: 100%;
 }
-
 .menu .inside-menu {
 
     border: 1px solid white;
     border-radius: 10px;
     padding: 5%;
 }
-
 .menu ul {
     list-style: none;
     text-decoration: none;
 }
-    /* .price li {
-        margin-bottom: 4px;
-    }
-    .typess li {
-        margin-bottom: 4px;
-    }
-    .prices li {
-        margin-bottom: 5px;
-    }
-    .pricess li {
-        margin-bottom: 6px;
-    } */
 .flex{
     display: flex;
     flex-direction: row;
@@ -94,7 +74,6 @@ header>h1 {
 .caution{
     text-align: right;
 }
-
 @media (min-width: 500px) {
     .menu {
         grid-template-columns: repeat(2, 1fr);
