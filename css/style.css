@@ -63,7 +63,7 @@ header>h1 {
     text-align: left;
 }
 .copyright{
-    margin: auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
